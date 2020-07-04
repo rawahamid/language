@@ -1,17 +1,11 @@
 {
     "name": "targettech/language",
-    "description": "No Desc",
+    "description": "Test Language Library",
     "type": "library",
-    "require": {
-        "illuminate/support": "^8.0@dev",
-        "php": "^7.4"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.3@dev"
-    },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Targettech\\Language\\": "src"
+            "Targettech\\Language\\": "src/"
         }
     },
     "extra": {
@@ -27,6 +21,5 @@
             "name": "Rawa Hamid",
             "email": "rawahamid4321@gmail.com"
         }
-    ],
-    "minimum-stability": "dev"
+    ]
 }
